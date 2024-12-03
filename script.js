@@ -56,15 +56,49 @@
 
 
 
-const myname = 'malitha';
-const job = 'software Engineer';
-const birth_year = '2001';
-const current_year = '2024';
+// const myname = 'malitha';
+// const job = 'software Engineer';
+// const birth_year = '2001';
+// const current_year = '2024';
 
-const malitha = "I'm "+myname + " My job is "+job+" age is "+(current_year-birth_year);
-console.log(malitha);
-const newMalitha = "I am "+ myname;
-const newMalitha1 = `I'm ${myname}, a ${current_year-birth_year} year old`
+// const malitha = "I'm "+myname + " My job is "+job+" age is "+(current_year-birth_year);
+// console.log(malitha);
+// const newMalitha = "I am "+ myname;
+// const newMalitha1 = `I'm ${myname}, a ${current_year-birth_year} year old`
 
-console.log(newMalitha);
-console.log(newMalitha1);
+// console.log(newMalitha);
+// console.log(newMalitha1);
+
+// //type conversion
+// const inputYear = '1991';
+// const Age = '12';
+// // console.log(inputYear + Age);
+
+
+
+// console.log(Number(inputYear)+11);
+// console.log('23'+'20'-'10');
+
+// let n = '1'+1;
+// // n = n - 1;
+// console.log(typeof n);
+
+// const age = '18';
+// if(age==18){
+//     console.log("you just became an adult :)");
+// }else{
+//     console.log("age does't matter");
+
+const favorite =Number(prompt("what is your favorite number?"));
+console.log(favorite);
+
+if(favorite === 23)
+{
+    console.log("cool! 23 is good Number");
+}
+else if(favorite === 30){
+    console.log("cool! 30 is good Number");
+}
+else{
+    console.log("Other Numbers are always good");
+}
