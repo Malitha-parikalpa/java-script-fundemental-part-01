@@ -103,12 +103,12 @@
 //     console.log("Other Numbers are always good");
 // }
 
-const hasDriverLicense = true;
-const hasGoodVision = false;
+// const hasDriverLicense = true;
+// const hasGoodVision = false;
 
-console.log(hasDriverLicense && hasGoodVision);
-console.log(hasDriverLicense || hasGoodVision);
-console.log(!hasDriverLicense);
+// console.log(hasDriverLicense && hasGoodVision);
+// console.log(hasDriverLicense || hasGoodVision);
+// console.log(!hasDriverLicense);
 
 // if(hasDriverLicense)
 // {
@@ -117,12 +117,35 @@ console.log(!hasDriverLicense);
 //     console.log("bye");
 // }
 
-const isTired = true;
-console.log(hasDriverLicense && isTired || hasGoodVision);
+// const isTired = true;
+// console.log(hasDriverLicense && isTired || hasGoodVision);
 
-if((hasDriverLicense && hasGoodVision)  || isTired)
-{
-    console.log('yes')
-}else{
-    console.log('no')
+// if((hasDriverLicense && hasGoodVision)  || isTired)
+// {
+//     console.log('yes')
+// }else{
+//     console.log('no')
+// }
+
+const day = 'wednesdasy';
+
+switch(day){
+    case 'monday':
+        console.log("plane course structure");
+        console.log("Go to coding meetup");
+        break;
+    case 'tuesday':
+        console.log("malitha");
+        break;
+    case 'wednesday':
+        console.log("parikalpa");
+    case "friday":
+        console.log("hello");
+        break;
+    case 'saturday':
+        console.log("yoo");
+        break;
+    default:
+        console.log("anything wrong");
+
 }
