@@ -89,16 +89,40 @@
 // }else{
 //     console.log("age does't matter");
 
-const favorite =Number(prompt("what is your favorite number?"));
-console.log(favorite);
+// const favorite =Number(prompt("what is your favorite number?"));
+// console.log(favorite);
 
-if(favorite === 23)
+// if(favorite === 23)
+// {
+//     console.log("cool! 23 is good Number");
+// }
+// else if(favorite === 30){
+//     console.log("cool! 30 is good Number");
+// }
+// else{
+//     console.log("Other Numbers are always good");
+// }
+
+const hasDriverLicense = true;
+const hasGoodVision = false;
+
+console.log(hasDriverLicense && hasGoodVision);
+console.log(hasDriverLicense || hasGoodVision);
+console.log(!hasDriverLicense);
+
+// if(hasDriverLicense)
+// {
+//     console.log("Hello");
+// }else{
+//     console.log("bye");
+// }
+
+const isTired = true;
+console.log(hasDriverLicense && isTired || hasGoodVision);
+
+if((hasDriverLicense && hasGoodVision)  || isTired)
 {
-    console.log("cool! 23 is good Number");
-}
-else if(favorite === 30){
-    console.log("cool! 30 is good Number");
-}
-else{
-    console.log("Other Numbers are always good");
+    console.log('yes')
+}else{
+    console.log('no')
 }
